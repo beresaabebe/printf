@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * printf_ex_string - print exclusuives string.
+ * print_ex_string - print exclusuives string.
  * @val: argumen t.
  * Return: the length of the string.
  */
 
-int printf_ex_string(va_list val)
+int print_ex_string(va_list val)
 {
 	char *s;
 	int i, len = 0;
