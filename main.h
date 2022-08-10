@@ -3,14 +3,17 @@
 
 #include <stdarg.h>
 #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <limits.h>
+#include <unistd.h>
 
 
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list c);
 int print_string(va_list s);
-int print_ex_string(va_list val);
-int print_pointer(va_list val);
 int print_int(va_list i);
 int print_dec(va_list d);
 int print_rev(va_list r);
